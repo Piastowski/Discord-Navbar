@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -6,10 +7,10 @@
 }
 
 .container{
-    width: 80px;
+    width: 70px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(54, 53, 53);
+    background-color: rgb(47, 45, 45);
     font-family: PT Sans;
     justify-content: center;
     text-align: center;
@@ -20,11 +21,30 @@
 .item{
     margin: 10px;
     color: rgb(172, 167, 167);
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
 }
 
-.img{
+.logo{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.border{
+    height: 3px;
+    background-color: rgb(61, 58, 58);
+    border-radius: 50px;
+}
+
+.text{
+    color: rgb(12, 142, 12);
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Ubuntu;
+}
+
+#cross{
     width: 40px;
     vertical-align: middle;
 }
@@ -36,14 +56,39 @@
 }
 
 #i2{
-    background-color: rgb(77, 71, 71);
+    background-color: rgb(61, 58, 58);
     border-radius: 100%;
     transition: 0.2s;
-    line-height: 55px;
+    line-height: 45px;
+    margin-bottom: 5px;
 }
 
 #i2:hover{
-    background-color: rgb(64, 92, 218);
+    background-color: rgb(69, 96, 215);
+    transition: 0.2s;
+    border-radius: 20px;
+}
+
+#i3{
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    height: auto;
+}
+
+#i4{
+    margin-top: 0;
+    background-color: rgb(61, 58, 58);
+    border-radius: 100%;
+    transition: 0.2s;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#i4:hover{
+    background-color: #00a850;
     transition: 0.2s;
     border-radius: 20px;
 }

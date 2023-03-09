@@ -1,9 +1,10 @@
+const i4 = document.querySelector('#i4')
 const cross = document.querySelector('#cross')
 
-cross.addEventListener('mouseover', () => {
+i4.addEventListener('mouseover', () => {
     cross.setAttribute('src', 'img/crossWhite.png')
 })
 
-cross.addEventListener('mouseout', () => {
+i4.addEventListener('mouseout', () => {
     cross.setAttribute('src', 'img/cross.png')
 })
